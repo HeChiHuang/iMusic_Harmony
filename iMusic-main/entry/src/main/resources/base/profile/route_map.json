@@ -1,0 +1,28 @@
+{
+  "routerMap": [
+    {
+      "name": "SplashAd",
+      "pageSourceFile": "src/main/ets/pages/SplashAd.ets",
+      "buildFunction": "SplashAdBuilder",
+      "data": {
+        "description": "开屏广告页面"
+      }
+    },
+    {
+      "name": "Layout",
+      "pageSourceFile": "src/main/ets/pages/Layout/Index.ets",
+      "buildFunction": "LayoutBuilder",
+      "data": {
+        "description": "布局页面"
+      }
+    },
+    {
+      "name": "Play",
+      "pageSourceFile": "src/main/ets/pages/Play.ets",
+      "buildFunction": "PlayBuilder",
+      "data": {
+        "description": "播放页面"
+      }
+    }
+  ]
+}
